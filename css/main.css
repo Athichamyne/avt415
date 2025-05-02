@@ -6,31 +6,84 @@
 html {font-size: 100%;} /*16px*/
 
 body {
-  background-image: url("../pngtree-detailed-hand-painted-pink-watercolour-background-image_1470485.jpg");
-  color: #181354;
+ 
+  color: #C54B8C;
   margin: 0;
   padding: 50px;
-  line-height: 1.75;
+  line-height: 1.5;
 }
 h1 {
- font-family: "Permanent Marker", cursive;
-  font-weight: 400;
+  font-family: "Corinthia", cursive;
+  font-weight: 1100;
+letter-spacing: 5px;
   font-style: normal;
-  font-size: 5em;
-  color: midnightblue; 
+font-size: 5.5em
 }
 
+.corinthia-bold {
+  font-family: "Corinthia", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
+        
 
 h2 {font-size: 3em;
-
+	
+  font-family: "Corinthia", cursive;
+  font-weight: 400;
+  font-style: normal;
+ font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: bold;
 }
 
-h4 {font-size: 1.5em;
+
+
+h2 {
+  font-size: 4em;
+  margin-bottom: 0.2em; /* Reduce space under the heading */
+	
+}
+h4 {font-size: 2em;
 margin-top: 0;
 
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:300;
+  font-style: bold;
 }
+
+
 
 dt {
 	font-size: 2em;
 	font-weight: bold;
+	
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+.title-wrapper {
+  text-align: center;
+  margin-bottom: 30px; /* adjust as needed */
+}
+
+h1 {
+  font-family: "Corinthia", cursive;
+  font-weight: 1100;
+  letter-spacing: 5px;
+  font-style: normal;
+  font-size: 5.5em;
+  margin: 0; /* remove extra space */
+}
+
+h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 3em;
+  margin: 0;
+  margin-top: -15px; /* pull h4 closer to h1 */
 }
